@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="theme-color" content="#333">
+		<title>Ticket Attendant</title>
+		<meta name="description" content="Material Style Theme">
+		<link rel="shortcut icon" href="assets/img/favicon.png?v=3">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="assets/css/preload.min.css">
+		<link rel="stylesheet" href="assets/css/plugins.min.css">
+		<link rel="stylesheet" href="assets/css/style.light-blue-500.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css"/>
+		<link rel="stylesheet" href="custom/css/custom.css">
+		
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="ms-preload" class="ms-preload">
+			<div id="status">
+				<div class="spinner">
+					<div class="dot1"></div>
+					<div class="dot2"></div>
+				</div>
+			</div>
+		</div>
+		<div class="ms-site-container">
+			<div class="top-space"></div>
+			<nav class="navbar navbar-expand-md  navbar-static ms-navbar ms-navbar-custom navbar-mode">
+				<div class="container container-full">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">
+							<img id="logo_image" src="custom/images/logo.png" alt="..."/>
+						</a>
+					</div>
+					<div class="collapse navbar-collapse" id="ms-navbar">
+						<ul class="navbar-nav">
+							<li class="nav-item dropdown active">
+								<a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TA Suite
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Auto Pilot
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Consignment Cloud
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources
+									<i class="zmdi zmdi-chevron-down"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="#">
+										FAQs</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">
+										Pricing</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">
+										Market Research</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">
+										Log In</a>
+									</li>
+									
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-square-right fa-flip-horizontal" style="font-size: 25px; margin-right:8px; margin-top:2px"></i>Login
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-account-o" style="font-size: 25px; margin-right:8px; margin-top:2px"></i>Contact
+								</a>
+							</li>
+						</ul>
+					</div>
+					<a href="javascript:void(0)" class="ms-toggle-left btn-navbar-menu">
+						<i class="zmdi zmdi-menu"></i>
+					</a>
+				</div>
+				<!-- container -->
+			</nav>
+			<header class="ms-hero ms-hero-black mb-6">
+				<div id="carousel-header" class="carousel carousel-header slide" data-ride="carousel" data-interval="5000">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-header" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-header" data-slide-to="1"></li>
+						<li data-target="#carousel-header" data-slide-to="2"></li>
+						<li data-target="#carousel-header" data-slide-to="3"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<div class="container">
+								<div class="row">
+									<div class="col-xl-12 col-lg-12">
+										<div class="carousel-caption">
+											
+											<div class="text-center">
+												<h1 class="color-white no-mt mb-4 animated zoomInDown animation-delay-7 carousel-header-large-text">
+												3 Ways to Streamline Your Business
+												</h1>
+												<p class="color-white no-mt mb-4 animated flipInX animation-delay-16 carousel-header-small-text">
+													Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="container">
+								<div class="row">
+									<div class="col-xl-12 col-lg-12">
+										<div class="carousel-caption">
+											
+											<div class="text-center">
+												<h1 class="color-white no-mt mb-4 animated zoomInDown animation-delay-7 carousel-header-large-text">
+												3 Ways to Streamline Your Business
+												</h1>
+												<p class="color-white no-mt mb-4 animated flipInX animation-delay-16 carousel-header-small-text">
+													Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="container">
+								<div class="row">
+									<div class="col-xl-12 col-lg-12">
+										<div class="carousel-caption">
+											
+											<div class="text-center">
+												<h1 class="color-white no-mt mb-4 animated zoomInDown animation-delay-7 carousel-header-large-text">
+												3 Ways to Streamline Your Business
+												</h1>
+												<p class="color-white no-mt mb-4 animated flipInX animation-delay-16 carousel-header-small-text">
+													Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="container">
+								<div class="row">
+									<div class="col-xl-12 col-lg-12">
+										<div class="carousel-caption">
+											
+											<div class="text-center">
+												<h1 class="color-white no-mt mb-4 animated zoomInDown animation-delay-7 carousel-header-large-text">
+												3 Ways to Streamline Your Business
+												</h1>
+												<h4 class="color-white no-mt mb-4 animated flipInX animation-delay-16 carousel-header-small-text">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+												</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!-- Controls -->
+					<a href="#carousel-header" class="btn-circle btn-circle-xs btn-circle-raised color-main left carousel-control" role="button" data-slide="prev">
+						<i class="zmdi zmdi-chevron-left"></i>
+					</a>
+					<a href="#carousel-header" class="btn-circle btn-circle-xs btn-circle-raised color-main right carousel-control" role="button" data-slide="next">
+						<i class="zmdi zmdi-chevron-right"></i>
+					</a>
+				</div>
+			</header>
+			<div class="container">
+				<section class="mb-4">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-sm-6 mb-2">
+							<div class="wow flipInX animation-delay-4">
+								
+								<div class="text-center">
+									<h2 class="color-ticket-title">Ticket Attendant Suite</h2>
+									<div class="ticket-image">
+										<img src = "custom/images/gauge.png"/>
+									</div>
+									<div class="ticket-detail">
+										<p>You receive access to our software for a monthly fee</p>
+									</div>
+									<h4 class="color-main">More..</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 mb-2">
+							<div class="wow flipInX animation-delay-4">
+								
+								<div class="text-center">
+									<h2 class="color-ticket-title">Auto Pilot</h2>
+									<div class="ticket-image">
+										<img src = "custom/images/content-download.png"/>
+									</div>
+									<div class="ticket-detail">
+										<p>You focus on your key business while we take care of your back office</p>
+									</div>
+									<h4 class="color-main">More..</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 mb-2">
+							<div class="wow flipInX animation-delay-4">
+								
+								<div class="text-center">
+									<h2 class="color-ticket-title">Consignment Cloud</h2>
+									<div class="ticket-image">
+										<img src = "custom/images/computer-network.png"/>
+									</div>
+									<div class="ticket-detail">
+										<p>We leverage our access and volume to increase your ticket visibility</p>
+									</div>
+									<h4 class="color-main">More..</h4>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</section>
+			</div>
+			
+			
+			<div class="wrap ms-hero-img-benefies ms-bg-fixed">
+				<div class="container">
+					<div class="text-center mb-4">
+						<p class="color-white custom-subject">Benefits</p>
+						<hr class="custom-underline"/>
+						<p class="color-light benefits-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-6 mb-2" >
+							<div class="wow flipInX animation-delay-4">
+								<div class="text-center">
+									<img src = "custom/images/4.png"/>
+									<h4 class="color-white">Save</h4>
+									<h4 class="color-white">Time & Money</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 mb-2" >
+							<div class="wow flipInX animation-delay-4">
+								<div class="text-center">
+									<img src = "custom/images/3.png"/>
+									<h4 class="color-white">Gain</h4>
+									<h4 class="color-white">Software Stability</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 mb-2" >
+							<div class="wow flipInX animation-delay-4">
+								<div class="text-center">
+									<img src = "custom/images/2.png"/>
+									<h4 class="color-white">Receive</h4>
+									<h4 class="color-white">Top customer Service</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 mb-2" >
+							<div class="wow flipInX animation-delay-4">
+								<div class="text-center">
+									<img src = "custom/images/1.png"/>
+									<h4 class="color-white">Access</h4>
+									<h4 class="color-white">The Best Technology</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<!--container -->
+			</div>
+			<section class="testimonials">
+				<div class="container">
+					<div class="text-center mb-2">
+						<p class="custom-subject color-ticket-title">Testimonials</p>
+						<hr class="custom-underline"/>
+					</div>
+					<div id="slick-slider-custom">
+						<div>
+							<div class="media">
+								<div class="media-left custom-media-left">
+									
+									<img  src="assets/img/demo/avatar4.jpg" class="custom-circle-image" alt="...">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading custom-testimonial-content">
+									&quot;Excellent customer support and technical support.
+									Products work well all the time!&quot;
+									</h4>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+						<div>
+							<div class="media">
+								<div class="media-left custom-media-left">
+									
+									<img  src="assets/img/demo/avatar5.jpg" class="custom-circle-image" alt="...">
+								</div>
+								<div class="media-body ">
+									<h4 class="media-heading custom-testimonial-content">
+									&quot;These products have saved me hours of the time and helped to keep me organized.&quot;
+									</h4>
+									
+								</div>
+							</div>
+							
+						</div>
+						<div>
+							<div class="media">
+								<div class="media-left custom-media-left">
+									
+									<img  src="assets/img/demo/avatar4.jpg" class="custom-circle-image" alt="...">
+								</div>
+								<div class="media-body">
+									<h4 class="custom-testimonial-content">
+									&quot;Excellent customer support and technical support.
+									Products work well all the time!&quot;
+									</h4>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+						<div>
+							<div class="media">
+								<div class="media-left custom-media-left">
+									
+									<img  src="assets/img/demo/avatar5.jpg" class="custom-circle-image" alt="...">
+								</div>
+								<div class="media-body">
+									<h4 class="custom-testimonial-content">
+									&quot;Excellent customer support and technical support.
+									Products work well all the time!&quot;
+									</h4>
+									
+								</div>
+							</div>
+							
+						</div>
+						<div>
+							<div class="media">
+								<div class="media-left custom-media-left">
+									
+									<img  src="assets/img/demo/avatar4.jpg" class="custom-circle-image" alt="...">
+								</div>
+								<div class="media-body">
+									<h4 class="custom-testimonial-content">
+									&quot;Excellent customer support and technical support.
+									Products work well all the time!&quot;
+									</h4>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+						<div>
+							<div class="media">
+								<div class="media-left custom-media-left">
+									
+									<img  src="assets/img/demo/avatar5.jpg" class="custom-circle-image" alt="...">
+								</div>
+								<div class="media-body">
+									<h4 class="custom-testimonial-content">
+									&quot;Excellent customer support and technical support.
+									Products work well all the time!&quot;
+									</h4>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+						
+					</div>
+				</div>
+			</section>
+			<aside class="ms-footbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 contactaddress">
+							
+							<div class="animated fadeInUp animation-delay-4">
+								
+								<div class="text-center  mt-4">
+									<h1 class="color-white">Address</h1>
+									<img src = "custom/images/map.png" class="map-icon mt-4 mb-2"/>
+									<div class="color-white">
+										<p>3420 N. Sheffield Ave.</p>
+										<p>Chicago, IL 60657</p>
+										<p> 773.888.3048 </p>
+										<p>sales@ticketattendant.com</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-lg-4 col-md-4 keepintouch">
+							<div class="animated fadeInUp animation-delay-7">
+								<div class="text-center mt-4">
+									<h1 class="color-white ">Keep in touch</h1>
+									<form class="form-horizontal">
+										<fieldset>
+											<div class="form-group row">
+												
+												<div class="col-md-12">
+													<input type="text" class="form-control color-white" id="inputEmail" placeholder="Your name">
+												</div>
+											</div>
+											
+											<div class="form-group row">
+												<div class="col-md-12">
+													<input type="email" class="form-control color-white" id="inputPassword" placeholder="Email Address">
+												</div>
+											</div>
+											<div class="form-group row">
+												<div class="col-md-12">
+													<input type="text" class="form-control color-white" id="inputPassword" placeholder="Write your message">
+												</div>
+											</div>
+										</fieldset>
+										<center>
+										<button class="btn btn-raised btn-main mb-4 mt-2">Submit</button>
+										</center>
+										
+									</form>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 history">
+							<div class="animated fadeInUp animation-delay-4">
+								<div class="text-center mt-4">
+									<h2 class="color-white">History</h1>
+									
+									<img src = "custom/images/girl.png" class="mb-2"/>
+									
+									<p>
+										Lorem Ipsum has been the industry's standard dummy text ever since
+									</p>
+									<h4 style="color:#e988fd">Read More</h4>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</aside>
+			<footer class="ms-footer">
+				<div class="container text-center">
+					<p>3420 N.Sheffield Ave., Chicago, IL 60657 | 773.888.3048 | sales@ticketattendant.com</p>
+					<h5>TA Suite | Auto Pilot | Consignment Cloud | Resources | About </h5>
+					<p>@ 2017 Ticket Attendant</p>
+				</div>
+			</footer>
+			<div class="btn-back-top">
+				<a href="#" data-scroll id="back-top" class="btn-circle btn-circle-primary btn-circle-sm btn-circle-raised ">
+					<i class="zmdi zmdi-long-arrow-up"></i>
+				</a>
+			</div>
+		</div>
+		<!-- ms-site-container -->
+		<div class="ms-slidebar sb-slidebar sb-left sb-style-overlay" id="ms-slidebar">
+			<div class="sb-slidebar-container">
+				<header class="ms-slidebar-header">
+					<div class="ms-slidebar-login">
+						<a href="javascript:void(0)" class="withripple">
+						<i class="zmdi zmdi-account"></i> Login</a>
+						<a href="javascript:void(0)" class="withripple">
+						<i class="zmdi zmdi-account-add"></i> Register</a>
+					</div>
+					<div class="ms-slidebar-title">
+						<div class="ms-slidebar-t">
+							<h3>TicketAttendant</h3>
+						</div>
+					</div>
+				</header>
+				<ul class="ms-slidebar-menu" id="slidebar-menu" role="tablist" aria-multiselectable="true">
+					<li>
+						<a class="link" href="#">
+						<i class="zmdi zmdi-home"></i> TA Suite</a>
+					</li>
+					<li>
+						<a class="link" href="#">
+						<i class="zmdi zmdi-home"></i> Auto Pilot</a>
+					</li>
+					<li>
+						<a class="link" href="#">
+						<i class="zmdi zmdi-home"></i> Consignment Clound</a>
+					</li>
+					<li class="card" role="tab">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#slidebar-menu" href="#sub-resources" aria-expanded="false" aria-controls="sub-resources">
+						<i class="zmdi zmdi-home"></i> Resources</a>
+						<ul id="sub-resources" class="card-collapse collapse" role="tabpanel" aria-labelledby="sub-resources">
+							<li>
+								<a  href="#">
+								FAQs</a>
+							</li>
+							<li>
+								<a  href="#">
+								Pricing</a>
+							</li>
+							<li>
+								<a  href="#">
+								Market Research</a>
+							</li>
+							<li>
+								<a href="#">
+								Log In</a>
+							</li>
+							
+						</ul>
+					</li>
+					<li>
+						<a class="link" href="#">
+						<i class="zmdi zmdi-home"></i> About</a>
+					</li>
+					<li>
+						<a class="link" href="#">
+						<i class="zmdi zmdi-home"></i> Login</a>
+					</li>
+					<li>
+						<a class="link" href="#">
+						<i class="zmdi zmdi-home"></i> Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="assets/js/plugins.min.js"></script>
+		<script src="assets/js/app.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/slick/slick.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+		
+		$('#slick-slider-custom').slick({
+			infinite: false,
+			speed: 300,
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			prevArrow:"<img class='a-left control-c prev slick-prev' src='custom/images/arrow-left.png'>",
+			nextArrow:"<img class='a-right control-c next slick-next' src='custom/images/arrow-right.png'>",
+			responsive: [{
+				breakpoint: 768,
+				settings: {slidesToShow: 1,slidesToScroll: 1}
+				}]
+			});
+		});
+		</script>
+	</body>
+</html>
