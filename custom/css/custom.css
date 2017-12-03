@@ -14,6 +14,7 @@
 .ms-hero.ms-hero-black{
 	background-image: url(../images/header-back.png) !important;
 }
+
 .ms-navbar-custom{
     background-color: #010101;
 }
@@ -126,6 +127,15 @@
 	background-image: url(../images/benefits.png);
     background-size: cover;
     background-position: center center;
+
+}
+
+.ms-hero-img-features{
+	background-image: url(../images/features-back.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:130px !important;
 }
 
 .benefits-content{
@@ -147,6 +157,21 @@
    
    width: 75%;
    font-weight: 400;
+}
+
+.custom-video-item{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.custom-last-video{
+   font-size: 35px;
+}
+
+.ta-suite-tasks{
+	background-image: url(../images/ta-suite-tasks-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .slick-prev{
